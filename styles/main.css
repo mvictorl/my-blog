@@ -2,3 +2,67 @@
   margin: 0;
   padding: 0;
 }
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 80px;
+  min-height: 100vh;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  background: linear-gradient(to bottom, #00d2ff, #928dab);
+  color: #fff;
+}
+
+container {
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+h2 a {
+  color: aqua;
+}
+
+li {
+  list-style: none;
+}
+
+ul {
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+button {
+  background-color: inherit;
+  border: none;
+  cursor: pointer;
+}
+
+button i {
+  color: #00d2ff;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+article {
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 10px 20px;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+}
