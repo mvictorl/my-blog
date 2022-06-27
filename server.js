@@ -26,7 +26,8 @@ app.use(morgan(':method :url :status :response-time ms'))
 // 	next()
 // })
 app.use(express.urlencoded({ extended: false }))
-app.use(express.static('styles'))
+app.use(express.static(__dirname + '/styles'))
+app.use(express.static(__dirname + '/dist'))
 // app.use(
 // 	express.static('styles', {
 // 		dotfiles: 'deny',
