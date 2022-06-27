@@ -1,7 +1,7 @@
 const createPath = require('../utils/create-path')
 const db = require('../utils/restdb.client')
 
-const getAllPosts = async (_, res) => {
+const getAllPosts = async (req, res) => {
 	const title = 'Posts'
 
 	const posts = await db.get('/posts?sort=_created&dir=-1')
